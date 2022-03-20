@@ -1,0 +1,115 @@
+.header{
+    background-color: #FFB6C1;
+}
+.main{
+    background-color: whitesmoke;
+}
+.mainNosotros{
+    background-color: #DDA0DD;
+}
+.footer{
+    background-color: #d3d3d3;
+}
+.bienvenida{
+    color: rgb(116 7 116);
+}
+.portada{
+    height: 105vh;
+}
+.textoInicial{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #000080
+}
+.portfolioCuadros{
+    color: #008B8B
+}
+.bordes{
+    border: solid 10px violet;
+}
+.productos{
+    color: #FF1493;
+    font-family: 'Dosis', sans-serif;
+}
+.tecnica{
+    color: midnightblue;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.precios{
+    color:#8A2BE2;
+    font-family: 'Roboto Mono', monospace
+}
+.comprar:hover{
+    background-color:grey;
+}
+.cards:hover{
+    transform: scale(1.1);
+}
+.nosotros{
+    color: indigo;
+    font-family: 'Roboto Mono', monospace;
+}
+.videoNosotros{
+    width: 40%;
+}
+.boton{
+    width: 20%;
+}
+h1{
+    font-family: 'Fjalla One', sans-serif;
+}
+ul{
+    list-style-type:none;
+    justify-content: center;
+}
+.itemMenu:hover {
+    background-color:pink;
+    width: 25%;
+    height: 5%;
+}
+svg{
+    color: #663399;
+}
+.facebook:hover{
+    background-color: white;
+    color:blue;
+}
+.instagram:hover{
+    background-color:white;
+    color:#FF1493;
+}
+.whatsapp:hover{
+    background-color: white;
+    color: #32CD32;
+}
+.mail:hover{
+    background-color: white;
+    color: #4169E1;
+}
+.menuFooter{
+    color:#FF1493;
+}
+.colorMenu:hover{
+    color:#008B8B;
+}
+.gradLineal{
+    background-image: linear-gradient(#FAA6B3,#753565,black);
+}
+/* ANIMACIONES */
+
+.textoAnimado{
+    animation-name: texto;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+}
+/* KEYFRAMES */
+@keyframes texto{
+    from{
+        transform: translate(-200px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
